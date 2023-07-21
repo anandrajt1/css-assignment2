@@ -1,0 +1,44 @@
+.card{
+    width: 350px;
+    height: 370px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.card-header{
+    position: relative;
+
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.promoted{
+    background-color: burlywood;
+    color: white;
+    position:absolute;
+    top:0;
+    margin: 16px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.off{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+.min{
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    padding: 3px;
+    border-radius: 5px;
+
+}
